@@ -38,4 +38,4 @@ async def heh(ctx, count_heh = 5):
 
  
 
-bot.run("a3366c2e000812a22b8e83c919f202e5e851126e85d0d16c27bc89a9afac8cfa")
+bot.run("Buraya gizli token gelecek.")
