@@ -1,0 +1,36 @@
+import discord
+from discord.ext import commands
+intents = discord.Intents.default()
+intents.message_content = True
+
+@bot.command()
+
+async def hello(ctx):
+
+await ctx.send(f'Merhaba! Ben {bot.user}, bir Discord kirlilik sorununu çözme botuyum!')
+
+@bot.command()
+
+async def hello(ctx):
+
+await ctx.send(fSizce kirlilik sorununu nasıl çözebiliriz?')
+
+@bot.command()
+
+async def hello(ctx):
+
+await ctx.send(fSizce kirlilik sorununu neden çözmeliyiz?')
+
+@bot.command()
+
+async def hello(ctx):
+
+await ctx.send(fSizce kirlilik sorunu çok kolay bir şekilde çözülebilir mi?')
+
+@bot.command()
+
+async def hello(ctx):
+
+await ctx.send(fSorularımıza cevap verdiğiniz için teşekkür ederiz.')
+
+bot.run("Buraya gizli token gelecek.")
